@@ -1,0 +1,10 @@
+data:
+  path: "processed/data/path/here"
+
+
+# use local/global_p to determine if space is local or global. Use local/global_d to determine if calculating deltas
+# unscaled won't use scalers. input_only overrides and only scales input
+model:
+  name: 'calvin_experiment_global_p_local_d_all_data_lr_03_scaled_deltas_CLS_512_standard_nonlinear_l1_interleaved_b_smooth_wd_001_best_test'
+  load: false
+  load_path: 'calvin_experiment_global_p_local_d_all_data_lr_03_scaled_deltas_CLS_512_standard_nonlinear_l1_interleaved_b_smooth_wd_001_best.pt'
